@@ -9,6 +9,7 @@ class TaskService
 {
     public function getAllUserTasks(array $filters = [], int $taskPerPage = 10)
     {
+        // we can use $query = Auth::user()->tasks(); and filter on status only but the current way give us  flexiblitiy to make an admin rule or ....
         $query = Task::query();
         // if filter applied
         if (!empty($filters['status'])) {
