@@ -32,6 +32,7 @@ Follow these steps to set up the project on your local machine:
    mv .env.example .env
 
 4. **Install PHP Dependencies**
+   Mak sure uncomment extension=zip  in  php.ini 
    composer install
 
 5. **Install JavaScript Dependencies**
