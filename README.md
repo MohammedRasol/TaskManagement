@@ -12,7 +12,7 @@ Before you begin, ensure you have the following installed:
 -   **Node.js** and **npm**
 -   **MySQL** or another supported database
 -   A terminal or command-line interface
-
+-   Mak sure uncomment extension=zip  in  php.ini 
 ## Installation Steps
 
 Follow these steps to set up the project on your local machine:
@@ -32,7 +32,6 @@ Follow these steps to set up the project on your local machine:
    mv .env.example .env
 
 4. **Install PHP Dependencies**
-   Mak sure uncomment extension=zip  in  php.ini 
    composer install
 
 5. **Install JavaScript Dependencies**
